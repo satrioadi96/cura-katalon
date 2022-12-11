@@ -25,7 +25,8 @@ WebUI.click(findTestObject('Object Repository/SatrioAdiPrawiro-day5/Page_CURA He
 
 WebUI.doubleClick(findTestObject('Object Repository/SatrioAdiPrawiro-day5/Page_CURA Healthcare Service_4/a_Login'))
 
-WebUI.setText(findTestObject('Object Repository/SatrioAdiPrawiro-day5/Page_CURA Healthcare Service_4/input_username'), 'John Doe')
+WebUI.setText(findTestObject('Object Repository/SatrioAdiPrawiro-day5/Page_CURA Healthcare Service_4/input_username'), 
+    'John Doe')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/SatrioAdiPrawiro-day5/Page_CURA Healthcare Service_4/input_password'), 
     'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
@@ -37,37 +38,4 @@ WebUI.click(findTestObject('Object Repository/SatrioAdiPrawiro-day5/Page_CURA He
 WebUI.click(findTestObject('Object Repository/SatrioAdiPrawiro-day5/Page_CURA Healthcare Service_4/h2_Make Appointment'))
 
 WebUI.closeBrowser()
-
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://demoaut.katalon.com/')
-
-WebUI.click(findTestObject('Object Repository/SatrioAdiPrawiro-day5/Page_CURA Healthcare Service_5/i_fa fa-bars'))
-
-WebUI.click(findTestObject('Object Repository/SatrioAdiPrawiro-day5/Page_CURA Healthcare Service_5/a_Login'))
-
-WebUI.setText(findTestObject('Object Repository/SatrioAdiPrawiro-day5/Page_CURA Healthcare Service_5/input_username'), 
-    'John Doe')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/SatrioAdiPrawiro-day5/Page_CURA Healthcare Service_5/input_password'), 
-    'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
-
-WebUI.doubleClick(findTestObject('Object Repository/SatrioAdiPrawiro-day5/Page_CURA Healthcare Service_5/button_Login'))
-
-WebUI.click(findTestObject('Object Repository/SatrioAdiPrawiro-day5/Page_CURA Healthcare Service_5/button_Book Appointment'))
-
-WebUI.setText(findTestObject('Object Repository/SatrioAdiPrawiro-day5/Page_CURA Healthcare Service_5/input_visit_date'), 
-    '')
-
-WebUI.click(findTestObject('Object Repository/SatrioAdiPrawiro-day5/Page_CURA Healthcare Service_5/div_datepicker datepicker-dropdown dropdown_b23739'))
-
-WebUI.setText(findTestObject('Object Repository/SatrioAdiPrawiro-day5/Page_CURA Healthcare Service_5/input_visit_date'), 
-    '')
-
-WebUI.click(findTestObject('Object Repository/SatrioAdiPrawiro-day5/Page_CURA Healthcare Service_5/button_Book Appointment'))
-
-WebUI.setText(findTestObject('Object Repository/SatrioAdiPrawiro-day5/Page_CURA Healthcare Service_5/input_visit_date'), 
-    '')
-
-WebUI.click(findTestObject('Object Repository/SatrioAdiPrawiro-day5/Page_CURA Healthcare Service_5/div_datepicker datepicker-dropdown dropdown_b23739'))
 
